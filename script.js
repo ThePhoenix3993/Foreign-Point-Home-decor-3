@@ -111,7 +111,7 @@ document.addEventListener("DOMContentLoaded", () => {
             description: "Timeless elegance for any room. A signature piece that captures luxury and precision. Features a premium metallic finish and silent quartz movement.",
             specs: ["Material: Gold-plated metal", "Size: 24 inches diameter", "Movement: Silent Quartz"],
             category: "Clocks",
-            image: "photos/golden_wall_clocks_1773927637156.png"
+            image: "golden_wall_clocks_1773927637156.png"
         },
         "ganesha-fountains": {
             name: "Ganesha Fountains",
@@ -119,7 +119,7 @@ document.addEventListener("DOMContentLoaded", () => {
             description: "Serenity and grace intertwined. Bring calming ambiance to your personal space with this beautiful flowing water feature, ideal for meditation and relaxation.",
             specs: ["Material: Resin with stone finish", "Size: 12x8x15 inches", "Pump: Ultra-quiet included"],
             category: "Fountains",
-            image: "photos/ganesha_fountains_1773927973157.png"
+            image: "ganesha_fountains_1773927973157.png"
         },
         "calligraphy-metal-art": {
             name: "Calligraphy Metal Art",
@@ -127,7 +127,7 @@ document.addEventListener("DOMContentLoaded", () => {
             description: "Modern artistic expression. Transform blank walls into compelling focal points. This handmade calligraphy piece features intricate detailing.",
             specs: ["Material: Wrought Iron", "Size: 36x24 inches", "Finish: Matte Black/Gold"],
             category: "Wall Art",
-            image: "photos/calligraphy_metal_art_1773927695140.png"
+            image: "calligraphy_metal_art_1773927695140.png"
         },
         "gallery-1": {
             name: "Modern Vase Setup",
@@ -135,7 +135,7 @@ document.addEventListener("DOMContentLoaded", () => {
             description: "A beautiful modern vase setup for contemporary minimalist homes.",
             specs: ["Material: Ceramic", "Color: Neutral"],
             category: "Accessories",
-            image: "photos/image3.jpg"
+            image: "image3.jpg"
         },
         "gallery-2": {
             name: "Luxury Living Room Decor",
@@ -143,7 +143,7 @@ document.addEventListener("DOMContentLoaded", () => {
             description: "Premium curated items for an upscale living space.",
             specs: ["Various materials"],
             category: "Furniture Set",
-            image: "photos/image4.jpg"
+            image: "image4.jpg"
         },
         "gallery-3": {
             name: "Storefront Highlight",
@@ -151,7 +151,7 @@ document.addEventListener("DOMContentLoaded", () => {
             description: "An exclusive item highlighted in our storefront.",
             specs: ["Premium Build"],
             category: "Featured",
-            image: "photos/storefront_1773927592315.png"
+            image: "storefront_1773927592315.png"
         },
         "gallery-4": {
             name: "Abstract Table Decor",
@@ -159,7 +159,7 @@ document.addEventListener("DOMContentLoaded", () => {
             description: "Eye-catching abstract pieces for your center table.",
             specs: ["Material: Resin and Metal"],
             category: "Accessories",
-            image: "photos/image6.jpg"
+            image: "image6.jpg"
         },
         "gallery-5": {
             name: "Earthy Tones Decor",
@@ -167,7 +167,7 @@ document.addEventListener("DOMContentLoaded", () => {
             description: "Bring the outside in with earthy tones and natural textures.",
             specs: ["Material: Terracotta"],
             category: "Accessories",
-            image: "photos/image7.jpg"
+            image: "image7.jpg"
         },
         "gallery-6": {
             name: "Cozy Corner Lighting",
@@ -175,7 +175,7 @@ document.addEventListener("DOMContentLoaded", () => {
             description: "Warm, cozy lighting options for the perfect reading nook.",
             specs: ["Bulb Type: Warm LED", "Material: Brass"],
             category: "Lighting",
-            image: "photos/image8.jpg"
+            image: "image8.jpg"
         },
         "gallery-7": {
             name: "Minimalist Wall Shelves",
@@ -183,7 +183,7 @@ document.addEventListener("DOMContentLoaded", () => {
             description: "Sleek and minimalist, perfect for displaying your favorite items.",
             specs: ["Material: Engineered Wood"],
             category: "Furniture",
-            image: "photos/image9.jpg"
+            image: "image9.jpg"
         },
         "gallery-8": {
             name: "Premium Dining Setup",
@@ -191,22 +191,22 @@ document.addEventListener("DOMContentLoaded", () => {
             description: "Complete dining setup with luxurious plates and centerpieces.",
             specs: ["Includes 12 pieces"],
             category: "Dining",
-            image: "photos/image5.jpg"
+            image: "image5.jpg"
         }
     };
 
     const productMappings = {
-        'photos/golden_wall_clocks_1773927637156.png': 'golden-wall-clocks',
-        'photos/ganesha_fountains_1773927973157.png': 'ganesha-fountains',
-        'photos/calligraphy_metal_art_1773927695140.png': 'calligraphy-metal-art',
-        'photos/image3.jpg': 'gallery-1',
-        'photos/image4.jpg': 'gallery-2',
-        'photos/storefront_1773927592315.png': 'gallery-3',
-        'photos/image6.jpg': 'gallery-4',
-        'photos/image7.jpg': 'gallery-5',
-        'photos/image8.jpg': 'gallery-6',
-        'photos/image9.jpg': 'gallery-7',
-        'photos/image5.jpg': 'gallery-8'
+        'golden_wall_clocks_1773927637156.png': 'golden-wall-clocks',
+        'ganesha_fountains_1773927973157.png': 'ganesha-fountains',
+        'calligraphy_metal_art_1773927695140.png': 'calligraphy-metal-art',
+        'image3.jpg': 'gallery-1',
+        'image4.jpg': 'gallery-2',
+        'storefront_1773927592315.png': 'gallery-3',
+        'image6.jpg': 'gallery-4',
+        'image7.jpg': 'gallery-5',
+        'image8.jpg': 'gallery-6',
+        'image9.jpg': 'gallery-7',
+        'image5.jpg': 'gallery-8'
     };
 
     // Attach click listener dynamically to links in index.html without modifying its DOM structure directly
