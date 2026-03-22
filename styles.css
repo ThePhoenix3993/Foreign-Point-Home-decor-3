@@ -69,7 +69,7 @@ ul {
     left: -5%;
     width: 110vw; /* larger to hide blur edges */
     height: 110vh;
-    background-image: url('photos/image1.jpg');
+    background-image: url('image1.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
